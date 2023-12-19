@@ -1,0 +1,71 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+
+body{
+    font-family: 'Poppins' ,sans-serif;
+    background-image: url(images/mosque-ist.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: aliceblue;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, .7);
+    height: 100vh;
+}
+
+.header{ padding: 50px 20px 30px 20px; }
+
+.header h1{
+    font-size: 50px;
+    text-shadow: 1px 3px rgba(0, 0, 0, .9);
+}
+
+.header input{
+    color: aliceblue;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid aliceblue;
+    text-align: center;
+    font-size: 20px;
+}
+
+.header input::placeholder{
+    color: aliceblue;
+    opacity: 50%;
+}
+
+.city{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0, 0, 0, .7);
+}
+
+.temp{
+    font-size: 50px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+    text-shadow: 1px 5px rgba(0, 0, 0, 1);
+}
+
+.desc{
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 1px 3px rgba(0, 0, 0, .7);
+    margin-bottom: 10px;
+}
+
+.minmax{
+    font-size: 20px;
+    text-shadow: 1px 3px rgba(0, 0, 0, .7);
+}
